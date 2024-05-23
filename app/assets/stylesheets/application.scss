@@ -1,0 +1,21 @@
+@import "bootstrap";
+@import "font-awesome.min";
+@import "nice-select.min";
+@import "style";
+@import "owl.carousel.min";
+@import "responsive";
+
+// FontAwesome font-face declaration
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/assets/fontawesome-webfont-fa79d127baca4558a0b973f5f514b90fc5ef43314c41095f5cb285ffaa0a4029.woff2') format('woff2'),
+  url('/assets/fontawesome-webfont-c9a0a23a23a3f6f7165cba218b40483a0b1750d92b49c40842f1d8f566f5f421.woff') format('woff'),
+  url('/assets/fontawesome-webfont-2794b002e3568f5abce8991e2431ca79e0ce84a08ea1268884b4e097b62762a6.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Use the FontAwesome font
+//body {
+//  font-family: 'FontAwesome', sans-serif;
+//}

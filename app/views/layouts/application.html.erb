@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Techinchargers</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>Techinchargers</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-  </head>
+  <!-- Include Bootstrap CSS -->
+  <%= stylesheet_link_tag 'bootstrap', 'font-awesome.min', 'nice-select.min', 'style', 'font', 'owl.carousel.min', 'responsive', 'application', 'data-turbo-track': 'reload' %>
 
-  <body>
-    <%= yield %>
-  </body>
+  <!-- Include jQuery -->
+  <%= javascript_include_tag 'jquery-3.4.1.min.js', 'owl.carousel.min.js', 'owlcarousel2-filter.min.js', 'bootstrap', 'custom', 'jquery.nice-select.min', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+<%= yield %>
+</body>
 </html>
